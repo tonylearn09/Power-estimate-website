@@ -1,0 +1,69 @@
+body {
+	background-image: url("../images/paper.jpg");
+	background-repeat: repeat;
+}
+
+
+h1 {
+ 	font-family: 'Tangerine', serif;
+  	text-shadow: 4px 4px 4px #aaa;
+	color: #747704;
+	font-weight: 300;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+hr {
+	background-color: #BCBBBB;
+	height: 4px;
+}
+
+.nav-tabs > li {
+    float: none;
+    display: inline-block;
+    *display: inline; /* ie7 fix */
+     zoom: 1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs {
+	text-align: center;
+}
+
+
+.title-super {
+	font-size: 60px;
+}
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+
+.graph{
+	width: 1450px;
+	height: 530px; 
+	text-align: center; 
+	margin: 0 auto;
+}
+
+  
+div.graph {  
+    width: 1140px;  
+    height: 350px;  
+}
+
+/* 
+ * for flot
+ */
+.legendLabel
+{
+    color:White;
+}
